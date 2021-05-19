@@ -79,7 +79,7 @@ Ejemplo respuesta basándose en el enunciado:
 * Utilización de logs de trazabilidad
 * Test
 
-##️⭐️ Desafio técnico
+## ⭐️ Desafio técnico
 
 A continuación se encuentran las
 [Instrucciones de desafío técnico](CONTRIBUTING.md)
