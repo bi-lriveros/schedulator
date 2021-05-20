@@ -1,23 +1,31 @@
-# ☕️ Schedule Generator
+# ☕️ Schedule Generator (Desafío Banco Internacional)
 
-> ℹ️ api generadora de tareas (schedule)
+> ℹ️ api generadora de tareas (schedule) -> En este repositorio se encuentra un microservicio que generará los datos de entrada para el desafío
 
 ## ☝️ Dependencias
 
 * Java 11
 * Gradle (Wrapper incluido)
 
-## 🏁 Instalación y ejecución
+## 🚀 Instalación y ejecución
 
 ```bash
  ./gradlew bootRun
 ```
 
+## 🏁 Objetivo
+
+* Generar un proyecto que exponga un api que de solución al problema expuesto a continuación
+
 ## El problema
 
-En el repositorio actual se encontrará un microservicio que generará un listado de tareas de forma aleatoria
-con el siguiente formato
+En el repositorio actual se encontrará un microservicio que generará un listado de tareas de forma aleatoria, cada tarea tiene un tiempo
+de ejecución (en hrs).
+El objetivo es generar un api rest que agrupe las tareas de tal manera que retorne la minima cantidad de días en ser
+terminadas considerando jornadas de trabajo de 8 horas.
 
+
+* Formato Entrada
 ```
 GET http://localhost:8080/generator/schedule/tasks
 ```
@@ -42,10 +50,8 @@ GET http://localhost:8080/generator/schedule/tasks
 ]
 ```
 
-El objetivo es generar un api rest que organice las tareas de tal manera que retorne la minima cantidad de días en ser
-resueltas considerando jornadas de trabajo de 8 horas.
 
-Ejemplo respuesta basándose en el enunciado:
+* Ejemplo de respuesta (No necesariamente debe ser igual, ud puede considerar agregar o quitar información)
 
 ```json
 {
@@ -79,8 +85,8 @@ Ejemplo respuesta basándose en el enunciado:
 * Utilización de logs de trazabilidad
 * Test
 
-## ⭐️ Desafio técnico
+## ⭐️ Entrega Desafío técnico
 
 A continuación se encuentran las
-[Instrucciones de desafío técnico](CONTRIBUTING.md)
+[Instrucciones para el envío del desafío técnico](CONTRIBUTING.md)
 
