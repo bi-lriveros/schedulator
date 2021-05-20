@@ -1,6 +1,6 @@
 # ☕️ Schedule Generator (Desafío Banco Internacional)
 
-> ℹ️ api generadora de tareas (schedule) -> En este repositorio se encuentra un microservicio que generará los datos de entrada para el desafío
+> ℹ️ Api generadora de tareas (schedule) -> En este repositorio se encuentra un microservicio que generará los datos de entrada para el desafío
 
 ## ☝️ Dependencias
 
@@ -15,14 +15,16 @@
 
 ## 🏁 Objetivo
 
-* Generar un proyecto que exponga un api que de solución al problema expuesto a continuación
+* Generar un proyecto que exponga un api rest (springboot) que de solución al problema expuesto a continuación
+* Generar un proyecto frontend (React) que consuma y muestre los datos generados por el servicio construido
 
 ## El problema
 
 En el repositorio actual se encontrará un microservicio que generará un listado de tareas de forma aleatoria, cada tarea tiene un tiempo
 de ejecución (en hrs).
 El objetivo es generar un api rest que agrupe las tareas de tal manera que retorne la minima cantidad de días en ser
-terminadas considerando jornadas de trabajo de 8 horas.
+terminadas considerando jornadas de trabajo de 8 horas. En conjunto con una interfaz que muestre de forma clara los datos 
+al usuario final.
 
 
 * Formato Entrada
@@ -79,13 +81,12 @@ GET http://localhost:8080/generator/schedule/tasks
 
 * Solución al problema indicado
 * Código limpio y ordenado
-* Estructura del proyecto
-* Estrategia de commits
+* Estructura de los proyectos
 * Documentación
 * Utilización de logs de trazabilidad
 * Test
 
-## ⭐️ Entrega Desafío técnico
+## ⭐️ Entrega desafío técnico
 
 A continuación se encuentran las
 [Instrucciones para el envío del desafío técnico](CONTRIBUTING.md)
